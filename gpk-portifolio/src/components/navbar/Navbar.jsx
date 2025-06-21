@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -44,8 +44,8 @@ const Navbar = () => {
       </div>
 
       <div className="hamburger" onClick={() => setIsMobile(!isMobile)}>
-        {/* {isMobile ? <FaTimes /> : <FaBars />} */}
-        {isMobile ? <p> times </p> : <p>bars</p>}
+        {isMobile ? <FaTimes /> : <FaBars />}
+        {/* {isMobile ? <p> times </p> : <p>bars</p>} */}
 
       </div>
     </nav>
