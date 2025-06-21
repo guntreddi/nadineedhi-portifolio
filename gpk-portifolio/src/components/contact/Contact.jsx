@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import './Contact.css'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+// import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

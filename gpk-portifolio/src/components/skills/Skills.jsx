@@ -2,7 +2,9 @@ import React,{useEffect} from 'react'
 import './Skills.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';  
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaPython, FaBrain } from 'react-icons/fa';
+// import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaPython, FaBrain } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaPython, FaBrain } from 'react-icons';
+
 import { SiBugcrowd } from 'react-icons/si';
 import { MdDevices } from 'react-icons/md';
 
@@ -24,7 +26,7 @@ const Skills = () => {
   }, []);
 
   return (
-    
+
          <section className="skills" id="skills">
       <div className="skills-container">
         <h2 className="skills-title">My Skills</h2>
